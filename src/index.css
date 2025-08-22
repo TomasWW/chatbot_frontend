@@ -1,0 +1,31 @@
+/* Reset global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente global */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e0f7fa; /* Fondo pastel celeste */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Scroll personalizado */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #b2dfdb; /* verde pastel claro */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8d6e63; /* marrón pastel */
+  border-radius: 4px;
+}
